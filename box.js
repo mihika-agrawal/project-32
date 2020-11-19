@@ -12,11 +12,7 @@ class Box{
         this.height =50;
         World.add(world, this.body);
       }
-  function score(){
-   if(this.visibility<0 && this.visibility>-105){
-     score++;
-   }
- }
+  
       
 display(){
   console.log(this.body.speed);
@@ -39,5 +35,9 @@ rect(this.body,this.body.position.x,this.body.position.y,50,50);
 pop();
 }
 }
-   
+   function score(){
+   if(this.visibility<0 && this.visibility>-105){
+     score= score +1 ;
+   }
+ }
 }
