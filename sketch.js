@@ -108,11 +108,7 @@ function mouseDragged(){
 
     }
 
- function score(){
-   if(this.visibility<0 && this.visibility>-105){
-     score++;
-   }
- }
+
   }
   async function getTime(){
     var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
