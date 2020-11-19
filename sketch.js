@@ -37,6 +37,8 @@ slingshot= new SlingShot(polygon.body,{x:100,y:200});
 function draw() {
   background(255);  
   text("SCORE: "+score,700,30);
+  engine = Engine.create();
+  world = engine.world;
   ground.display();
   //ground1.display();
  // ground2.display();
