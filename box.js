@@ -35,7 +35,7 @@ rect(this.body,this.body.position.x,this.body.position.y,50,50);
 pop();
 }
 }
-   function score(){
+  score(){
    if(this.visibility<0 && this.visibility>-105){
      score= score +1 ;
    }
